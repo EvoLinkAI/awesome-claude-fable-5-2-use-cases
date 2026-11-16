@@ -21,7 +21,7 @@ Fill this section when adding or changing a case.
 - [ ] The case heading uses `### Case X: [Title](source-link)`.
 - [ ] The case has a stable `<a id="case-x"></a>` anchor.
 - [ ] The first line under the heading is a bold usage takeaway.
-- [ ] The body explains what the creator actually used Claude Fable 5 for.
+- [ ] The body explains what the creator actually used the model for and preserves the source’s model version.
 - [ ] Source-content notes are written as normal Markdown paragraphs, not a generic excerpt block.
 - [ ] Code blocks are used only for actual code, prompts, commands, or structured examples.
 - [ ] The case includes `Type: ... | Date: YYYY-MM-DD`.
@@ -37,6 +37,8 @@ Fill this section when adding or changing a case.
 - [ ] No public per-case quality badge unless the repository format changes.
 
 ## Localization checklist
+
+Use the matching files under `docs/fable-5-2/` for Fable 5.2 cases, and the root files for historical case corrections.
 
 - [ ] `README.md` was updated first.
 - [ ] `README_es.md` was synced.

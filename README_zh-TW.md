@@ -1,81 +1,55 @@
 # Claude Fable 5.2 使用案例
 
-**[瀏覽 160 個 Fable 5.2 案例](docs/fable-5-2/README_zh-TW.md)**
-
-收錄 11 月 10 日和 11 月 13–14 日蒐集的工作流程、展示、比較、評測、整合與使用限制，並附原始來源。
-
-## Fable 歷史案例
-
 <div align="center">
 
-<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-111111)](README.md)
-[![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md)
-[![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md)
-[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md)
-[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md)
-[![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md)
-[![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md)
-[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md)
-[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md)
-[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md)
-[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
+[English](README.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [Türkçe](README_tr.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md)
 
 </div>
+
+**[瀏覽 160 個 Fable 5.2 案例](docs/fable-5-2/README_zh-TW.md)**
 
 <a id="-introduction"></a>
 ## 🍌 簡介
 
-歡迎來到 Claude Fable 5 高訊號使用案例庫。
-
-**我們收集 Claude Fable 5 的真實使用案例、教學、整合與評測，內容精選自公開 demo 與創作者社群。**
-
-這份繁體中文 README 聚焦於具備具體工作流程、提示詞、demo、整合、基準測試證據或實際限制的高訊號案例。
-
-大多數案例整理自 X/Twitter 貼文與公開 demo。每個案例標題都連回原始來源，每個作者帳號都連到創作者個人頁面。
-
-在 Evolink 上試用：[Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+收錄 11 月 10 日和 11 月 13–14 日蒐集的工作流程、展示、比較、評測、整合與使用限制，並附原始來源。
 
 <a id="-overview"></a>
-## 📊 概覽
+## 📊 總覽
 
-- **88 個原有 Fable 5 案例，加上 241 個社群案例，共 329 個案例。**
-- 覆蓋程式代理、長時間自動化、遊戲、視覺設計、3D 模擬、知識工作、教學、API 整合、基準測試、定價與發布限制。
-- 每個案例都包含原始來源、創作者署名、精簡重點、證據類型與發布日期。
-- 使用此 repo 尋找實用工作流程、比較強項與限制、發現可重現提示詞，並追蹤整合範例。
+目前的目錄有 160 個 Claude Fable 5.2 案例，下方保留 329 個較早的案例。兩份目錄都附有原始來源連結。
 
-> [!NOTE]
-> 這個收藏偏重具體證據而非炒作：可重現提示詞、已發布 demo、基準測試方法、整合說明、成本資料，以及清楚標出的注意事項。
-
+<a id="-快速-api-接入"></a>
 <a id="-quick-api-access"></a>
-## ⚡ 快速 API 接入
+## ⚡ 快速開始
 
-透過相容 Evolink 的 Messages API 使用 Claude Fable 5。先在 [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) 取得 API token，然後將 `<token>` 替換為你的 token。
+[建立 API 金鑰](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). 將 EvoLink API 金鑰設為環境變數 `EVOLINK_API_KEY`，再使用模型 `claude-fable-5-2` 傳送 Messages 請求。
 
 ```bash
 curl --request POST \
   --url https://direct.evolink.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
+  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
   --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
+  --data '{
+    "model": "claude-fable-5-2",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review this implementation plan for hidden engineering risks."
+      }
+    ]
+  }'
 ```
+
+`POST https://direct.evolink.ai/v1/messages`
+
+[查看 Messages API 文件](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [閱讀程式設計代理指南](docs/coding-agent-use-cases.md) · [執行 Python 範例](api-examples/python/messages.py) · [執行 Node.js 範例](api-examples/node/messages.mjs)
+
+## Fable 歷史案例
 
 <a id="-menu"></a>
 ## 📑 目錄
@@ -1550,7 +1524,7 @@ Documentation:
 
 此 phase 規則：
 
-- 寧可提供 15 個高信心 findings，不要 50 個 speculative ones。
+- 優先提出 15 個有充分把握的發現，省去 50 個推測性的問題。
 - 區分 facts（例如「this function has no error handling: src/api/client.ts:142」）與 judgments（例如「this module's responsibilities feel unclear」），並標示哪一種。
 - 也列出 repo 做得好的地方：strengths 對決定要保留什麼很重要。
 
@@ -2887,7 +2861,7 @@ Type: Evaluation | Date: 2026-06-11
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg" alt="Claude 模型選擇手冊" width="760"><br>▶ 播放影片</a>
 
-貼文從模型推理投入與額度消耗的角度，比較 Haiku 4.5、Sonnet 4.6、Opus 4.8 與 Fable 5。實務建議是日常工作使用 Sonnet、較難問題切換至 Opus，再把 Fable 5 留給需要深入規劃、建置與測試的最困難 Claude Code 任務。
+貼文從模型推理投入與用量開銷的角度，比較 Haiku 4.5、Sonnet 4.6、Opus 4.8 與 Fable 5。實務建議是日常工作使用 Sonnet、較難問題切換至 Opus，再把 Fable 5 留給需要深入規劃、建置與測試的最困難 Claude Code 任務。
 
 Type: Tutorial | Date: 2026-06-11
 
@@ -4596,7 +4570,7 @@ Type: Demo | Date: 2026-10-02
 
 **在晶片至伺服器的縮放任務中比較寫實感與連續性。**
 
-作者比較 Fable XHigh 與 GPT Sol Ultra 的寫實縮放序列，並討論速度與額度消耗。原帖比較的是不同訂閱等級下的特定執行。
+作者比較 Fable XHigh 與 GPT Sol Ultra 的寫實縮放序列，並討論速度與用量開銷。原帖比較的是不同訂閱等級下的特定執行。
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="晶片至伺服器縮放比較" width="760"></a>
 
@@ -4817,7 +4791,7 @@ Type: Demo | Date: 2026-10-01
 
 **比較兩種水母動畫成果的形變與動作。**
 
-作者比較 Fable XHigh 與 GPT Sol Ultra 的極光水母動畫，並討論額度使用。成果來自不同訂閱等級。
+作者比較 Fable XHigh 與 GPT Sol Ultra 的極光水母動畫，並討論用量。成果來自不同訂閱等級。
 
 <a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="極光水母動畫比較" width="760"></a>
 
@@ -6334,4 +6308,4 @@ Type: Demo | Date: 2026-11-08
 如果你有更多有趣的使用案例想分享，歡迎開 issue 或 pull request，協助擴充 Evolink usecase library。
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5-2-use-cases&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5-2-use-cases&Date)

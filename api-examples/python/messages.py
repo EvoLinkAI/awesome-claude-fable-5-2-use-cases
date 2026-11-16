@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal Claude Fable 5 Messages API example through EvoLink."""
+"""Minimal Claude Fable 5.2 Messages API example through EvoLink."""
 
 import json
 import os
@@ -10,7 +10,7 @@ API_KEY = os.environ["EVOLINK_API_KEY"]
 URL = "https://direct.evolink.ai/v1/messages"
 
 payload = {
-    "model": "claude-fable-5",
+    "model": "claude-fable-5-2",
     "max_tokens": 1024,
     "messages": [
         {

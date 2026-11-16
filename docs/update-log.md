@@ -1,5 +1,12 @@
 # Update log
 
+## 2026-11-16 — Fable 5.2 repository presentation
+
+- Updated the banner and Messages examples for Claude Fable 5.2.
+- Updated the homepage links in all 11 languages. The historical Russian page links to its full notes.
+- Verified both case catalogs against their structured indexes.
+
+
 ## 2026-11-14 — Claude Fable 5.2
 
 - Added 21 [Fable 5.2 cases](fable-5-2/README.md#case-469) (Cases 469–489) across eleven languages.

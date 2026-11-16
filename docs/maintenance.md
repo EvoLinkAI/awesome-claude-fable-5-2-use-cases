@@ -2,13 +2,12 @@
 
 This repository is a curated usecase content repository. The public README files are manually edited source-of-truth documents, not generated build artifacts.
 
-## Current Source of Truth
+## Case catalogs
 
-- `README.md` is the English source README.
-- `README_es.md`, `README_pt.md`, `README_ja.md`, `README_ko.md`, `README_de.md`, `README_fr.md`, `README_tr.md`, `README_zh-TW.md`, `README_zh-CN.md`, and `README_ru.md` are localized README files.
-- `data/use-cases.json` is the public case and source index. It covers every README case number, source, creator, evidence type, and date. New media-backed cases also record their original media and public presentation URLs.
-- `docs/update-log.md` records case additions and related maintenance changes.
-- There is no active generator that can safely rebuild the finished README files.
+- [Claude Fable 5.2 catalog](fable-5-2/README.md) and its ten translated editions cover Cases 330–489. The matching structured index is [data/fable-5-2-use-cases.json](../data/fable-5-2-use-cases.json).
+- The root README and its ten translated editions link to the current catalog and host Cases 1–329. The matching structured index is [data/use-cases.json](../data/use-cases.json).
+- [Full Russian case notes](ru-original-case-notes.md) hold longer translations linked from the historic Russian README.
+- [Update log](update-log.md) records content and maintenance changes.
 
 ## Case Format
 
@@ -40,7 +39,7 @@ Before adding or changing a case:
 
 ## Update Intake
 
-Collect public source candidates and deduplicate them against the README source links and `data/use-cases.json`. Review the original creator's post, concrete output, source media, and workflow details before selecting a case. Keep supporting posts attached to the same case rather than counting them as separate projects.
+Collect public source candidates and deduplicate them against the README source links and both structured indexes. Review the original creator's post, concrete output, source media, and workflow details before selecting a case. Keep supporting posts attached to the same case rather than counting them as separate projects.
 
 Update English first, then every localized README. Preserve exact prompt text when reproducing a prompt, and keep creator-reported timing and one-shot descriptions attributed to the creator.
 
@@ -48,11 +47,18 @@ Keep raw research collections, review queues, credentials, and temporary verific
 
 ## Validation Commands
 
-Run these checks before publishing:
+Check both catalogs before opening a pull request:
 
 ```bash
-for f in README*.md; do printf '%s ' "$f"; rg -c '^### Case [0-9]+' "$f"; done
-for f in README*.md; do printf '%s ' "$f"; rg -c '<a id="case-[0-9]+"></a>' "$f"; done
-rg -n 'images/logo\.svg|How to use it:|Tweet excerpt|19 more creators|more creators' README*.md CONTRIBUTING.md
-rg -n '<img src="images/' README*.md
+git diff --check
+node --check api-examples/node/messages.mjs
+python3 -c 'import ast, pathlib; ast.parse(pathlib.Path("api-examples/python/messages.py").read_text())'
+for catalog in . docs/fable-5-2; do
+  for readme in "$catalog"/README*.md; do
+    printf '%s ' "$readme"
+    rg -c '^### Case [0-9]+:' "$readme"
+  done
+done
 ```
+
+Review the 11 editions of each catalog against its JSON index. Verify case numbers, menu targets, source and creator links, type, date, and media. Inspect desktop and narrow GitHub renders after changing navigation or media.
