@@ -1,10 +1,36 @@
 # Claude Fable 5.2 Use Cases
 
-**[Browse 160 Fable 5.2 cases](docs/fable-5-2/README.md)**
+**160 current-version cases with original sources, plus 329 historical cases kept separately.**
 
-Source-linked workflows, demos, comparisons, benchmarks, integrations, and practical limitations from the November 10 and November 13–14 collections.
+**[Browse all 160 cases](docs/fable-5-2/README.md)** · [中文版](README_zh-CN.md) · [Fable 5.2 model & API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2)
+
+## Start with these six cases
+
+| Start here | Available evidence |
+| --- | --- |
+| [Copy the full prompt: codebase state-machine audit](docs/fable-5-2/README.md#case-371) | Full original prompt + source repository |
+| [Play the portal-world demo](docs/fable-5-2/README.md#case-360) | Playable build + project repository |
+| [Explore a workflow: reference images to Three.js](docs/fable-5-2/README.md#case-339) | Integration demo; not a complete tutorial |
+| [Compare effort levels: MacBook SVG](docs/fable-5-2/README.md#case-330) | Compare quality, token use and output ceilings |
+| [Copy a prompt and watch a motion-design reel](docs/fable-5-2/README.md#case-420) | Full original prompt + video; results not independently reproduced |
+| [Inspect engineering output: CAD to drawings](docs/fable-5-2/README.md#case-480) | Output demo; dimensional accuracy needs validation |
+
+These entry points describe the available evidence, not independently reproduced results or a controlled ranking. “Full original prompt” is used only where the case publishes one; supply your own inputs and environment before trying it.
+
+## Current model entry point
+
+EvoLink confirms API model ID `claude-fable-5-2` for Chat Completions and Anthropic Messages. [See the model, integration example and current pricing](https://evolink.ai/claude-fable-5-2). Entry points checked on 2026-11-17; no paid API request was executed for this documentation change.
+
+## Why star this repository?
+
+Star to bookmark a maintained, source-linked collection that credits the creators and helps you find ideas again. All cases and prompts remain freely accessible without starring.
 
 ## Earlier Fable Cases
+
+The material below is historical. Original model names, links, examples and sources are retained for reference, not as a Fable 5.2 integration guide.
+
+<details>
+<summary>Expand 329 historical cases and earlier documentation</summary>
 
 <div align="center">
 
@@ -6326,3 +6352,5 @@ This repository was inspired by the creators, developers, benchmark teams, and c
 If you have more interesting usage cases to share, feel free to open an issue or pull request and help expand the Evolink usecase library.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+
+</details>

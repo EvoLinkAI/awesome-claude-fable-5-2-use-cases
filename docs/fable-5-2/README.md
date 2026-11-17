@@ -6,6 +6,19 @@ Source-linked workflows, demos, comparisons, benchmarks, integrations, and pract
 
 [Anthropic announcement](https://www.anthropic.com/claude-fable-and-mythos-5-2) · [Earlier case collection](../../README.md)
 
+## Choose an entry point
+
+| Start here | Available evidence |
+| --- | --- |
+| [Copy the full prompt: codebase state-machine audit](#case-371) | Full original prompt + source repository |
+| [Play the portal-world demo](#case-360) | Playable build + project repository |
+| [Explore a workflow: reference images to Three.js](#case-339) | Integration demo; not a complete tutorial |
+| [Compare effort levels: MacBook SVG](#case-330) | Compare quality, token use and output ceilings |
+| [Copy a prompt and watch a motion-design reel](#case-420) | Full original prompt + video; results not independently reproduced |
+| [Inspect engineering output: CAD to drawings](#case-480) | Output demo; dimensional accuracy needs validation |
+
+These entry points describe the available evidence, not independently reproduced results or a controlled ranking. “Full original prompt” is used only where the case publishes one; supply your own inputs and environment before trying it.
+
 ## Case Index
 
 | Case | Use Cases | Type |

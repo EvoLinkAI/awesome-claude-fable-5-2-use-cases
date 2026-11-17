@@ -1,10 +1,36 @@
 # Claude Fable 5.2 使用案例
 
-**[浏览 160 个 Fable 5.2 案例](docs/fable-5-2/README_zh-CN.md)**
+**160 个新版案例，附原始来源；另保留 329 个历史案例。**
 
-汇集 11 月 10 日和 11 月 13–14 日收集的工作流、演示、对比、评测、集成与使用限制，并附原始来源。
+**[完整 160 案例目录](docs/fable-5-2/README_zh-CN.md)** · [English](README.md) · [Fable 5.2 页面与 API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2)
+
+## 先看这 6 个案例
+
+| 从这里开始 | 已有材料 |
+| --- | --- |
+| [复制完整原提示词：代码状态机审查](docs/fable-5-2/README_zh-CN.md#case-371) | 完整提示词 + 源码线索 |
+| [直接玩：跨数百世界的传送门](docs/fable-5-2/README_zh-CN.md#case-360) | 在线成品 + 项目仓库 |
+| [看工作流：参考图到 Three.js 场景](docs/fable-5-2/README_zh-CN.md#case-339) | 集成演示；不是完整操作教程 |
+| [同题评测：不同 effort 的 MacBook SVG](docs/fable-5-2/README_zh-CN.md#case-330) | 对比质量、用量与输出上限 |
+| [复制提示词并看成片：30 秒动态设计](docs/fable-5-2/README_zh-CN.md#case-420) | 完整原提示词 + 视频；效果未独立复现 |
+| [看工程成品：CAD 转工程图](docs/fable-5-2/README_zh-CN.md#case-480) | 演示结果；尺寸精度仍需核验 |
+
+这些入口按已有材料分类，不代表独立复现或统一条件下的性能结论。只有确实刊出完整原提示词的案例标为“完整提示词”；准备自己的输入和环境后再尝试。
+
+## 当前模型入口
+
+EvoLink 官方页面确认 API 模型 ID 为 `claude-fable-5-2`，支持 Chat Completions 和 Anthropic Messages。[查看模型、接入示例及最新价格](https://evolink.ai/claude-fable-5-2)。入口于 2026-11-17 核对；本次文档改动未执行付费 API 请求。
+
+## 为什么 Star
+
+如果这个保留作者与原始来源、持续整理的案例库帮你节省了找灵感的时间，可以 Star 收藏，方便下次回来查找。所有案例与提示词均可直接浏览，不需要先 Star。
 
 ## Fable 历史案例
+
+以下为旧版本资料；旧模型名、链接、示例和原始来源保留作历史参考，不应当作 5.2 接入指南。
+
+<details>
+<summary>展开 329 个历史案例与旧版说明</summary>
 
 <div align="center">
 
@@ -6319,3 +6345,5 @@ Type: Demo | Date: 2026-11-08
 如果你有更多有趣的使用案例要分享，欢迎打开 issue 或 pull request，帮助扩展 Evolink 用例库。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+
+</details>
