@@ -10,7 +10,9 @@
 
 </div>
 
-**[浏览 160 个 Fable 5.2 案例](docs/fable-5-2/README_zh-CN.md)**
+**160 个新版案例，附原始来源；另保留 329 个历史案例。**
+
+**[浏览完整 160 案例目录](docs/fable-5-2/README_zh-CN.md)** · [查看 Fable 5.2 页面与 API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2)
 
 <a id="-introduction"></a>
 ## 🍌 简介
@@ -21,6 +23,27 @@
 ## 📊 总览
 
 当前目录有 160 个 Claude Fable 5.2 案例，下方收录 329 个历史案例。两个目录均链接到原始来源。
+
+## 先看这 6 个案例
+
+| 从这里开始 | 已有材料 |
+| --- | --- |
+| [复制完整原提示词：代码状态机审查](docs/fable-5-2/README_zh-CN.md#case-371) | 完整提示词 + 源码线索 |
+| [直接玩：跨数百世界的传送门](docs/fable-5-2/README_zh-CN.md#case-360) | 在线成品 + 项目仓库 |
+| [看工作流：参考图到 Three.js 场景](docs/fable-5-2/README_zh-CN.md#case-339) | 集成演示；不是完整操作教程 |
+| [同题评测：不同 effort 的 MacBook SVG](docs/fable-5-2/README_zh-CN.md#case-330) | 对比质量、用量与输出上限 |
+| [复制提示词并看成片：30 秒动态设计](docs/fable-5-2/README_zh-CN.md#case-420) | 完整原提示词 + 视频；效果未独立复现 |
+| [看工程成品：CAD 转工程图](docs/fable-5-2/README_zh-CN.md#case-480) | 演示结果；尺寸精度仍需核验 |
+
+这些入口按已有材料分类，不代表独立复现或统一条件下的性能结论。只有确实刊出完整原提示词的案例标为“完整提示词”；准备自己的输入和环境后再尝试。
+
+## 当前模型入口
+
+EvoLink 官方页面确认 API 模型 ID 为 `claude-fable-5-2`，支持 Chat Completions 和 Anthropic Messages。[查看模型、接入示例及最新价格](https://evolink.ai/claude-fable-5-2)。入口于 2026-11-17 核对；本次文档改动未执行付费 API 请求。
+
+## 为什么 Star
+
+如果这个保留作者与原始来源、持续整理的案例库帮你节省了找灵感的时间，可以 Star 收藏，方便下次回来查找。所有案例与提示词均可直接浏览，不需要先 Star。
 
 <a id="-快速-api-接入"></a>
 <a id="-quick-api-access"></a>
@@ -50,6 +73,11 @@ curl --request POST \
 [查看 Messages API 文档](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [阅读编码代理指南](docs/coding-agent-use-cases.md) · [运行 Python 示例](api-examples/python/messages.py) · [运行 Node.js 示例](api-examples/node/messages.mjs)
 
 ## Fable 历史案例
+
+以下案例为旧版本资料，保留原模型名、链接和来源供历史参考；接入 Fable 5.2 请使用上方当前版本的快速开始。
+
+<details>
+<summary>展开 329 个历史案例</summary>
 
 <a id="-menu"></a>
 ## 📑 目录
@@ -6293,3 +6321,5 @@ Type: Demo | Date: 2026-11-08
 如果你有更多有趣的使用案例要分享，欢迎打开 issue 或 pull request，帮助扩展 Evolink 用例库。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5-2-use-cases&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5-2-use-cases&Date)
+
+</details>
