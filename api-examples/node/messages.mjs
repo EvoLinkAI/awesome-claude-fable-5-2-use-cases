@@ -11,7 +11,7 @@ const response = await fetch("https://direct.evolink.ai/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "claude-fable-5",
+    model: "claude-fable-5-2",
     max_tokens: 1024,
     messages: [
       {

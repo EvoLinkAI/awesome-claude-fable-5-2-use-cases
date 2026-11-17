@@ -330,3 +330,478 @@ Fable может удерживать формат на протяжении д�
 - Рада продолжать использовать ее и нагружать дальше.
 - Примечание: теперь действует политика хранения данных 30 дней для ВСЕХ моделей класса Mythos в рабочих пространствах с нулевым хранением данных (ZDR).
 - Это применяется в Claude Console, Claude Code с ZDR в Claude Enterprise, а также при доступе через AWS Bedrock, Google Cloud Agent Platform или Microsoft Foundry с ZDR.
+
+<a id="original-notes-13"></a>
+## Кейс 13
+
+[Вернуться к кейсу](../README_ru.md#case-13)
+
+Claude Fable 5 сделала это одним промптом и без правок.
+
+Создай полноразмерный, высокий вертикальный ecommerce email mockup для MVMT, современного бренда часов и аксессуаров для миллениалов.
+
+Спроектируй очень реалистичный premium DTC email, который ощущается гладким, выверенным, минимальным, с masculine-leaning характером и editorial-подачей. Финальное изображение должно выглядеть как настоящий дизайнерский скриншот ecommerce email, а не постер, не landing page и не generic template.
+
+Brand vibe: современный California-cool, молодой, уверенный, чистый, aspirational, стильный и elevated. Дизайн должен ощущаться luxury-adjacent, но при этом доступным.
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+- Signature Watch Bands
+
+- clean premium ecommerce design
+- refined editorial layout
+- realistic product photography
+- subtle lifestyle imagery
+- strong hierarchy
+- crisp sans-serif typography
+- generous spacing
+- subtle shadows
+- restrained modern color palette
+
+Color palette: Black, white, charcoal, warm gray, stone, soft beige, brushed metal tones и subtle muted accents. Сохраняй палитру нейтральной и premium.
+
+Important creative direction: это должно ощущаться как отполированная watch-brand email campaign с сильным дизайнерским вкусом. Приоритизируй realism, elegance и clarity. Сделай так, чтобы это выглядело как то, что MVMT действительно могла бы отправить.
+
+1. Top promo bar: тонкая черная или dark charcoal полоса по верхнему краю с небольшим uppercase text: “FREE SHIPPING OVER $75 + EASY RETURNS”.
+
+2. Header: чистый белый header с MVMT wordmark/logo слева и минимальными навигационными ссылками справа или по центру: WATCHES, SUNGLASSES, JEWELRY, NEW ARRIVALS.
+
+3. Hero section: premium hero section с сильным визуальным балансом.
+
+Используй bold headline: “BUILT TO GET NOTICED”.
+
+Добавь короткий supporting copy о современных timepieces и accessories, созданных для того, чтобы поднять everyday style.
+
+Добавь темную rounded CTA button: “SHOP WATCHES”.
+
+- one dominant premium watch image
+- subtle luxury lifestyle imagery
+- stylish male model или fashion-forward masculine lifestyle scene
+- modern lighting и clean composition
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+
+- product image
+- product name
+- short one- or two-line description
+
+Сохраняй эту секцию симметричной, выверенной и premium.
+
+5. Accessory banner: добавь refined split section с заголовком “FINISH THE LOOK”. Покажи Signature Watch Bands. Используй premium close-up imagery ремешков или interchangeable bands. Добавь короткий supporting copy и темную CTA button: “SHOP ACCESSORIES”.
+
+6. Editorial promo tiles: добавь две side-by-side promotional tiles с image-led design.
+
+Заголовок первой tile: “FOR DAILY WEAR”.
+
+Заголовок второй tile: “FOR STATEMENT DAYS”.
+
+У каждой tile должен быть короткий copy и маленький CTA: “SHOP NOW”.
+
+Эти tiles должны ощущаться как editorial brand moments, а не generic sale boxes.
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+- Signature Watch Bands
+
+- isolated product image
+- product name
+- small “SHOP” link или button
+
+8. Brand signoff: добавь центрированный message block с headline: “DESIGNED TO MOVE WITH YOU”. Включи короткую строку о продуманно созданных watches, eyewear и accessories для everyday life.
+
+- MVMT logo
+- shop links
+- company links
+- support links
+- social icons
+- small legal and shipping text
+
+Typography direction: используй bold condensed или modern sans-serif typography для major headlines и clean sans-serif body text. Headlines должны ощущаться sharp, modern и fashion-forward. Body copy должен выглядеть реалистичным и в основном читаемым.
+
+Photography direction: используй premium product photography с realistic reflections, polished materials, soft shadows и clean surfaces. Lifestyle photography должна ощущаться elevated, modern и fashion-oriented.
+
+- tall vertical email format
+- clear section separation
+- realistic email proportions
+- strong hierarchy
+- mostly legible text
+- premium spacing
+- intentional alignment
+- balanced mix of product and lifestyle imagery
+
+- messy collage styling
+- playful scrapbook aesthetics
+- overly colorful design
+- cheap template vibes
+- cartoonish imagery
+- cluttered layouts
+- fake-looking UI elements
+- poster-style composition
+- excessive promotional chaos
+
+Output: полноразмерный, вертикально скомпонованный, высокореалистичный ecommerce email design mockup для MVMT, который ощущается premium, clean, polished, modern, editorial и presentation-ready.
+
+<a id="original-notes-20"></a>
+## Кейс 20
+
+[Вернуться к кейсу](../README_ru.md#case-20)
+
+[Исходное видео · @ClaudeDevs](https://x.com/ClaudeDevs/status/2064399512664526853)
+
+Интересно, что изменилось в повседневной работе команды Claude Code после Claude Fable 5.
+
+Thariq из команды Claude Code говорит, что Fable 5 заметно изменила то, как люди внутри Anthropic работают с Claude.
+
+Раньше людям приходилось внимательно проверять, правильно ли Claude выполняет работу: разбивать задачи, ревьюить outputs и следить, чтобы она не остановилась на полпути. Это было ближе к supervision.
+
+С Fable 5, поскольку она может работать дольше, тестировать себя и генерировать более качественный код, человеческая роль смещается от мониторинга того, правильно ли она делает работу, к направлению того, правильную ли работу она делает.
+
+Иными словами, goal-setting и context-building становятся важнее supervision.
+
+1. Используйте Claude как thinking partner.
+
+Подключайте Claude до реализации, уточняйте, что вы хотите построить и что возможно, просите ее задавать вопросы по небольшому spec или генерировать несколько направлений и HTML mocks из идеи, чтобы неоднозначности и проблемы всплыли до кодинга.
+
+2. Предоставляйте контекст, а не только constraints.
+
+Вместо того чтобы просто говорить "keep it simple" или "do not overbuild", объясняйте почему.
+
+Например: "This is an experimental feature that may be removed in a month, so do not create a structure that is hard to throw away."
+
+Это позволяет Claude принимать лучшие решения.
+
+3. Давайте цели и методы проверки. Fable 5 хорошо работает с `/goal` и Workflows в Claude Code. Дайте ей spec, установите полную реализацию как goal и позвольте workflows проверять каждый шаг и готовить отчет о том, что было реализовано и что отличалось.
+
+Наконец, Thariq говорит, что людям стоит пробовать использовать ее амбициознее. Fable 5 стоит пробовать на работе, которая раньше казалась слишком сложной для LLMs, и даже видеомонтаж для упомянутого видео был сделан с Fable.
+
+<a id="original-notes-23"></a>
+## Кейс 23
+
+[Вернуться к кейсу](../README_ru.md#case-23)
+
+→ ей нужны большие задачи. мелочи кажутся ниже ее уровня; чем сложнее работа, тем сильнее она включается
+
+→ я бы пока не включал ultracode, она поднимает очень много параллельных агентов
+
+→ она медленная. даже с пониженным effort она все равно какое-то время сидит и думает.
+
+Лента полна постов о том, как сильно она сжигает токены, поэтому я протестировал ее на своем плане Max за $200: effort установлен на xhigh, запустил аудит дизайна всего сайта через `/goal`, 30 минут, ушло 2% моей недельной квоты. Не так безумно, как я ожидал.
+
+/goal boot this project's real site, screenshot every page, run a full-site UI/UX audit, and produce an actionable design report.
+
+Проведи аудит как старший design lead в первый рабочий день: оцени, может ли обычный пользователь понять продукт, довериться ему и завершить основное действие без чтения документации, а не то, красиво ли выглядит UI.
+
+- локальное dev-окружение запускается, и реальный сайт открывается
+- ключевые страницы сняты скриншотами с помощью встроенной отладки браузера
+- охвачены основные страницы, ключевые пользовательские потоки и мобильная верстка
+- измерения: первое впечатление, навигация, визуальная иерархия, согласованность компонентов, состояния загрузки / пустые / ошибки, сигналы доверия, пути конверсии
+- каждая проблема помечена P0-P3, указано, чему она вредит: пониманию / доверию / конверсии, и конкретное исправление
+- отчет записан в docs/design-audit/README.md, скриншоты в docs/design-audit/assets/
+- безопасные мелочи вроде текста, отступов, иерархии кнопок исправляются сразу. крупные изменения только как рекомендации. никогда не трогать действия оплаты / удаления / публикации
+- завершить 5 проблемами, которые сильнее всего вредят конверсии, и 5 быстрыми улучшениями, которые можно исправить сегодня
+
+Когда закончишь, сохрани весь поток как переиспользуемый skill: запуск, скриншоты, аудит, приоритизация, исправление. Повторяй его после каждого релиза.
+
+<a id="original-notes-25"></a>
+## Кейс 25
+
+[Вернуться к кейсу](../README_ru.md#case-25)
+
+Claude для начинающих: что нужно знать о Fable 5.
+
+Anthropic недавно запустила Claude Fable 5, также известную как Claude Mythos 5, и она оставляет другие AI-модели позади в бенчмарках.
+
+С Fable 5 вам больше не нужно следить за каждой мелкой деталью кода или проверять все в поисках ошибок.
+
+Модель достаточно умна, чтобы справиться с этим.
+
+Ваша роль теперь — убедиться, что она движется в правильном направлении, уделяя больше внимания стратегии, чем техническому исполнению.
+
+Главное отличие Fable 5 — автономность.
+
+Вместо пошаговых инструкций вам нужно лишь сказать, какова финальная цель.
+
+Она может работать самостоятельно днями, пока не достигнет результата, который вы определили как успех, включая создание целых приложений.
+
+Anthropic рекомендует использовать модель как настоящего "партнера по мышлению".
+
+Прежде чем отправлять ее работать, спросите ее мнение: "Как бы ты это сделал?", "Что бы ты изменил?"
+
+Дополнительный совет: включите Advanced Plan mode и попросите Claude расспросить вас обо всем, что связано с проектом, перед тем как она начнет кодить
+
+[4] Идеальные настройки терминала: если вы используете Claude Code в терминале, включите автоматический режим. Также стоит повысить уровень effort до Effort High, потому что, хотя это использует больше токенов, модель думает намного глубже, и результат это окупает.
+
+Важное примечание: Claude Fable 5 будет доступна подписчикам только до 22 июня. После этого она будет доступна только через API и по цене вдвое выше модели Opus.
+
+Иными словами, возможно, мы видим конец эпохи дешевых подписок на топовые AI-модели. Если вы уже подписчик, сейчас время проверить пределы того, что вы считали невозможным.
+
+<a id="original-notes-26"></a>
+## Кейс 26
+
+[Вернуться к кейсу](../README_ru.md#case-26)
+
+Получили доступ к Claude Fable 5?
+
+Первое, что стоит сделать, — обновить с ее помощью ваши основные проекты, чтобы она резко улучшила все, над чем вы работали.
+
+Запустите этот Audit & Project Improvement Prompt на каждом важном для вас repo.
+
+Repo Audit & Improvement Plan.
+
+Prompt made by Claude Fable 5.
+
+Вы — software engineer и technical auditor мирового класса уровня principal.
+
+Ваша задача — глубоко проанализировать этот репозиторий, подготовить честный аудит и выдать приоритизированный, actionable план улучшений.
+
+Работайте в четырех фазах ниже, по порядку.
+
+Не перескакивайте вперед.
+
+Подкрепляйте каждое утверждение реальными файлами: цитируйте пути к файлам и номера строк.
+
+Если вы не можете что-то проверить, скажите об этом явно вместо догадок.
+
+Фаза 1 / Discovery & Mapping (прочитать перед оценкой)
+
+- Отобразите структуру директорий и определите тип проекта, язык(и), фреймворки и runtime targets.
+- Определите точки входа, основные модули и главный поток данных/управления через систему.
+- Прочитайте package manifest(s), lockfiles, build config, CI config, environment/config files и любые docs (README, CONTRIBUTING, ADRs).
+- Определите, для чего проект: его назначение, целевые пользователи и очевидная зрелость (prototype, internal tool, production service, library).
+- Отметьте уже используемые соглашения (именование, границы модулей, паттерны обработки ошибок, стиль тестов), чтобы рекомендации соответствовали существующей культуре, а не боролись с ней.
+
+Вывод для этой фазы: краткая "Repo Map" — назначение, стек, эскиз архитектуры, ключевые директории с однострочным описанием и все, что вас удивило.
+
+Фаза 2 / Audit (evidence-based, severity-rated)
+
+Проведите аудит по каждому измерению ниже.
+
+- что вы нашли
+- где (file:line)
+- почему это важно (конкретное последствие, а не расплывчатый принцип)
+- severity: Critical / High / Medium / Low
+
+- границы модулей
+- coupling/cohesion
+- circular dependencies
+- leaky abstractions
+- god objects/files
+- layering violations
+- scalability bottlenecks
+
+- duplication
+- dead code
+- complexity hotspots (самые длинные/самые ветвистые функции)
+- inconsistent patterns
+- error handling gaps (проглоченные исключения, отсутствующие edge cases)
+- type safety holes
+
+- hardcoded secrets или credentials
+- injection risks
+- unsafe deserialization
+- missing input validation
+- auth/authz weaknesses
+- outdated dependencies with known CVEs
+- overly permissive configs
+
+- coverage gaps, особенно вокруг core business logic
+- test quality: проверяют ли тесты поведение или только выполнение?
+- missing test types: unit, integration, e2e
+- flaky patterns
+- untestable code
+
+- N+1 queries
+- unnecessary allocations or copies
+- blocking calls in async paths
+- missing caching/indexing
+- unbounded growth: memory, files, queues
+
+- outdated, unmaintained, duplicated или unnecessarily heavy packages
+- license risks
+- lockfile hygiene
+
+- build/setup friction
+- CI/CD gaps
+- missing linting/formatting enforcement
+- logging/observability quality
+- error reporting
+- deployment story
+
+- README accuracy
+- onboarding path
+- undocumented critical behavior
+- stale docs that contradict code
+
+- Предпочитайте 15 high-confidence findings вместо 50 speculative ones.
+- Отличайте факты ("this function has no error handling: src/api/client.ts:142") от суждений ("this module's responsibilities feel unclear") и помечайте, что есть что.
+- Также перечислите, что repo делает хорошо: strengths важны для решения, что сохранить.
+
+Вывод для этой фазы: "Audit Report": findings, сгруппированные по dimension и отсортированные по severity, плюс секция Strengths. Не забудьте упомянуть все неприятные части, которым нужен высший приоритет.
+
+Фаза 3 / Improvement Strategy
+
+- Определите 3-5 themes, которые объясняют большинство findings, например "no enforced boundaries between layers" или "error handling is ad hoc".
+- Для каждой theme предложите target state и принцип за ним.
+- Укажите explicit trade-offs: что вы рекомендуете НЕ исправлять и почему (effort vs. payoff, risk, project maturity).
+- Определите, как выглядит "done" — measurable signals, например "CI fails on lint errors," "core module test coverage ≥ 80%," или "zero Critical findings".
+
+Фаза 4 / Detailed Task Plan
+
+Преобразуйте стратегию в план исполнения.
+
+Разбейте работу на отдельные задачи.
+
+- Title and one-paragraph description
+- Files/areas affected
+- Acceptance criteria: как мы проверяем, что задача выполнена
+- Effort estimate: S = <2h, M = half-day, L = 1–2 days, XL = needs breakdown
+- Risk of the change itself: может ли это что-то сломать?
+- Dependencies on other tasks
+
+Milestone 0 Safety net: все, что нужно перед безопасным рефакторингом (тесты вокруг критических путей, CI gates, backups).
+
+Milestone 1 Critical fixes: проблемы безопасности и корректности.
+
+Milestone 2 High-leverage improvements: изменения, которые упростят всю будущую работу.
+
+Milestone 3 Quality & polish: оставшиеся medium/low items, которые стоит сделать.
+
+Отдельно пометьте quick wins (high impact, S effort), чтобы их можно было сделать сразу.
+
+Для топ-3 задач включите краткий implementation sketch (approach, key steps, gotchas).
+
+Final Deliverable Format
+
+- Executive Summary: ≤10 sentences, overall health grade A–F with justification, top 3 risks, top 3 opportunities
+- Repo Map
+- Audit Report
+- Improvement Strategy
+- Task Plan: milestones + task table + quick wins
+- Open Questions: все, что нужно от человека для решения, например product intent, deprecation candidates, performance targets
+
+Constraints
+
+НЕ изменяйте никакой код во время этого аудита.
+
+Только анализ.
+
+Не раздувайте отчет.
+
+Если dimension здорова, скажите об этом одним предложением и двигайтесь дальше.
+
+Калибруйте по зрелости проекта.
+
+Не рекомендуйте enterprise-grade infrastructure для weekend prototype, если цели владельца этого не требуют.
+
+Проанализируйте потребности проекта и дайте рекомендации наиболее эффективными способами.
+
+Если repo большой, приоритизируйте глубину в core 20% кода, который делает 80% работы, и отметьте области, которые получили более легкое ревью.
+
+<a id="original-notes-29"></a>
+## Кейс 29
+
+[Вернуться к кейсу](../README_ru.md#case-29)
+
+HERMES AGENT ТЕПЕРЬ РАБОТАЕТ НА CLAUDE FABLE 5, первой публичной модели Anthropic класса Mythos.
+
+Выпущена 9 июня. Создана для той работы, которую Hermes делает лучше всего: long-horizon автономные задачи.
+
+hermes model
+
+/model anthropic/claude-fable-5
+
+→ Создана для задач на дни. Чем длиннее задача, тем больше ее преимущество. Запуски Hermes `/goal`, которые длятся часы, выигрывают больше всего.
+
+→ Самокорректируется в цикле. Собственная рекомендация Anthropic: задайте цель или rubric, дайте ей самокорректироваться, отойдите в сторону. Именно так работает Hermes `/goal`.
+
+→ Сильна в памяти между сессиями. На Continual Learning Bench она завершила полный цикл: fail → investigate → verify → distill → consult. Система памяти Hermes напрямую это подпитывает.
+
+→ 80.3% на SWE-Bench Pro. Лучшая доступная coding model. Направьте на нее свой профиль code-reviewer.
+
+- $10/миллион input
+- $50/миллион output
+- 90% скидка с prompt caching. Hermes автоматически прикрепляет 1-hour cache breakpoints.
+
+Одно замечание: запросы по cybersecurity, biology и chemistry fallback'ятся на Opus 4.8. Это срабатывает менее чем в 5% сессий. Учитывайте это для профилей, сфокусированных на security.
+
+Лучшая настройка: Fable 5 для сложных `/goal`, более дешевые модели для routine cron jobs.
+
+<a id="original-notes-30"></a>
+## Кейс 30
+
+[Вернуться к кейсу](../README_ru.md#case-30)
+
+Anthropic выпустила Claude Fable 5 и Claude Mythos 5, две версии своей самой способной модели на данный момент.
+
+Fable 5 предназначена для общего использования.
+
+Mythos 5 предназначена для небольшого набора доверенных партнеров.
+
+Единственная реальная разница — какие safeguards включены.
+
+- Возможности Claude Fable 5 превосходят возможности любой модели, которую Anthropic когда-либо делала общедоступной.
+- Она является state-of-the-art почти на всех протестированных бенчмарках.
+- Чем длиннее и сложнее задача, тем больше ее преимущество.
+- В запросах, связанных с cybersecurity, biology and chemistry или distillation, ответ Fable 5 вместо этого обрабатывается Claude Opus 4.8.
+- Distillation означает попытки извлечь возможности Claude для обучения конкурирующих моделей.
+- Вас информируют, когда это происходит, и в среднем это срабатывает менее чем в 5% сессий.
+- Claude Mythos 5 — та же базовая модель, что и Fable 5, но с ослабленными safeguards в некоторых областях.
+- Mythos 5 была сначала развернута для cyberdefenders Project Glasswing в сотрудничестве с правительством США.
+- Anthropic говорит, что Mythos 5 обладает самыми сильными cybersecurity-возможностями среди всех моделей в мире.
+- System card раскрывает отдельный safeguard, который ограничивает эффективность Claude в запросах по frontier LLM development.
+- Эти запросы включают pretraining pipelines, distributed training infrastructure и ML accelerator design.
+- В отличие от других safeguards, этот не виден вам и не fallback'ится на другую модель.
+- Он работает через методы вроде prompt modification, steering vectors или parameter-efficient fine-tuning.
+- Обе модели предлагаются по $10 за миллион input tokens и $50 за миллион output tokens.
+- Это меньше половины цены Claude Mythos Preview.
+- Fable 5 включена без дополнительной платы в планы Pro, Max, Team и seat-based Enterprise с запуска до 22 июня.
+- 23 июня она удаляется из этих планов, и использование требует usage credits.
+- Включенное окно может быть продлено, если позволит capacity.
+- Цель — как можно быстрее вернуть Fable 5 как стандартную часть подписочных планов.
+
+<a id="original-notes-31"></a>
+## Кейс 31
+
+[Вернуться к кейсу](../README_ru.md#case-31)
+
+Сводка того, что стоит знать о Claude Fable 5, модели класса Mythos, которая наконец стала общедоступной.
+
+Anthropic объявила Claude Fable 5, первую общедоступную модель класса Mythos, расположенную выше Opus, и первого участника семейства Claude 5.
+
+- API model name: `claude-fable-5`
+- Доступна через Claude API, AWS, Google Cloud и Microsoft Foundry
+- Claude Code поддерживает context window на 1M tokens на Pro, Max, Team и Enterprise
+
+- SWE-bench Pro: 80.3%
+- Opus 4.8: 69.2%
+- GPT-5.5: 58.6%
+- Gemini 3.1 Pro: 54.2%
+
+Чем длиннее и сложнее задача, тем шире становится разрыв.
+
+В оценке Stripe она завершила миграцию по Ruby codebase на 50 миллионов строк за один день — работу, которая раньше заняла бы у команды более двух месяцев.
+
+Она также является state of the art в визуальных задачах, проходя Pokemon FireRed, используя только информацию с экрана и минимальную настройку.
+
+- Запросы, связанные с cyber, bio/chem или distillation, обнаруживаются classifier.
+- Эти запросы обрабатываются Opus 4.8 вместо нее, с уведомлением.
+- Это срабатывает менее чем в 5% сессий.
+- Более 1,000 часов внешнего bug bounty testing не нашли universal jailbreak.
+
+- $10 за миллион input tokens
+- $50 за миллион output tokens
+- 90% input discount для prompt caching
+
+- Подписки Pro и Max включают ее без дополнительной платы до 22 июня.
+- После 23 июня требуются usage credits.
+- Anthropic говорит, что планирует вернуть ее в стандартные планы, когда позволит capacity.
+
+от вопросов, к задачам, к ответственностям.
+
+Он больше не просит Claude расследовать сбои по одному; он поручает ей непрерывно мониторить все отчеты.
+
+Единица работы смещается от "task" к "responsibility."

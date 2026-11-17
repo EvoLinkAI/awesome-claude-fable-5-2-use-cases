@@ -1,79 +1,55 @@
 # Claude Fable 5.2 Kullanım Örnekleri
 
-**[160 Fable 5.2 örneğini inceleyin](docs/fable-5-2/README_tr.md)**
-
-10 Kasım ve 13–14 Kasım derlemelerindeki iş akışları, demolar, karşılaştırmalar, kıyaslama testleri, entegrasyonlar ve kullanımda karşılaşılan sınırlar, kaynak bağlantılarıyla birlikte.
-
-## Önceki Fable Örnekleri
-
 <div align="center">
 
-<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-111111)](README.md)
-[![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md)
-[![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md)
-[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md)
-[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md)
-[![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md)
-[![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md)
-[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md)
-[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md)
-[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md)
-[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
+[English](README.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [Türkçe](README_tr.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md)
 
 </div>
 
+**[160 Fable 5.2 örneğini inceleyin](docs/fable-5-2/README_tr.md)**
+
+<a id="-introduction"></a>
 ## 🍌 Giriş
 
-Claude Fable 5 yüksek sinyalli kullanım örnekleri deposuna hoş geldiniz.
+10 Kasım ve 13–14 Kasım derlemelerindeki iş akışları, demolar, karşılaştırmalar, kıyaslama testleri, entegrasyonlar ve kullanımda karşılaşılan sınırlar, kaynak bağlantılarıyla birlikte.
 
-**Claude Fable 5 için gerçek dünya kullanım örneklerini, öğreticileri, entegrasyonları ve değerlendirmeleri; herkese açık demolardan ve üretici topluluklarından derleyerek topluyoruz.**
+<a id="-overview"></a>
+## 📊 Genel bakış
 
-Bu Türkçe README, somut iş akışları, promptlar, demolar, entegrasyonlar, benchmark kanıtları veya pratik sınırlar içeren yüksek sinyalli örneklere odaklanır.
+Güncel katalogda 160 Claude Fable 5.2 örneği, aşağıda ise 329 önceki örnek yer alıyor. Her iki koleksiyonda da özgün kaynaklara bağlantılar bulunuyor.
 
-Çoğu örnek X/Twitter gönderilerinden ve herkese açık demolardan derlenmiştir. Her örnek başlığı özgün kaynağa, her yazar kullanıcı adı da üretici profiline bağlantı verir.
-
-Evolink'te deneyin: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-
-## 📊 Genel Bakış
-
-- **88 özgün Fable 5 örneği ve 241 topluluk örneği; toplam 329 örnek.**
-- Kodlama ajanlarını, uzun süreli otomasyonu, oyunları, görsel tasarımı, 3D simülasyonları, bilgi çalışmalarını, öğreticileri, API entegrasyonlarını, benchmarkları, fiyatlandırmayı ve lansman sınırlamalarını kapsar.
-- Her örnek özgün kaynak, üretici atfı, kısa çıkarım, kanıt türü ve yayın tarihi içerir.
-- Bu depoyu pratik iş akışlarını bulmak, güçlü ve zayıf yönleri karşılaştırmak, yeniden üretilebilir promptları keşfetmek ve entegrasyon örneklerini izlemek için kullanın.
-
-> [!NOTE]
-> Bu koleksiyon abartıdan çok somut kanıtları öne çıkarır: yeniden üretilebilir promptlar, yayınlanmış demolar, benchmark yöntemleri, entegrasyon notları, maliyet verileri ve açıkça belirtilmiş uyarılar.
-
+<a id="-hızlı-api-erişimi"></a>
 <a id="-quick-api-access"></a>
-## ⚡ Hızlı API erişimi
+## ⚡ Hızlı başlangıç
 
-Claude Fable 5'i Evolink uyumlu Messages API üzerinden kullanın. [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) üzerinden API token alın, ardından `<token>` değerini kendi tokenınızla değiştirin.
+[API anahtarı oluşturun](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API anahtarınızı `EVOLINK_API_KEY` ortam değişkenine ekleyin, ardından `claude-fable-5-2` modeliyle bir Messages isteği gönderin.
 
 ```bash
 curl --request POST \
   --url https://direct.evolink.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
+  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
   --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
+  --data '{
+    "model": "claude-fable-5-2",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review this implementation plan for hidden engineering risks."
+      }
+    ]
+  }'
 ```
+
+`POST https://direct.evolink.ai/v1/messages`
+
+[Messages API belgelerini okuyun](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Kodlama ajanı kılavuzunu okuyun](docs/coding-agent-use-cases.md) · [Python örneğini çalıştırın](api-examples/python/messages.py) · [Node.js örneğini çalıştırın](api-examples/node/messages.mjs)
+
+## Önceki Fable Örnekleri
 
 ## 📑 Menü
 
@@ -6332,4 +6308,4 @@ Bu depo, gerçek Claude Fable 5 kullanım örneklerini herkese açık şekilde p
 
 Paylaşmak istediğiniz daha ilginç kullanım örnekleri varsa, issue veya pull request açmaktan çekinmeyin ve Evolink kullanım örnekleri kütüphanesini büyütmeye yardım edin.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5-2-use-cases&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5-2-use-cases&Date)

@@ -1,10 +1,10 @@
-# Claude Fable 5 Coding Agent Use Cases
+# Claude Fable 5.2 Coding Agent Use Cases
 
-Use Claude Fable 5 when the coding task benefits from long-context review, high-level planning, or hard-to-reproduce debugging. Route routine implementation and cheap iteration to lower-cost models when the plan is already stable.
+Use Claude Fable 5.2 when the coding task benefits from long-context review, high-level planning, or hard-to-reproduce debugging. Route routine implementation and cheap iteration to lower-cost models when the plan is already stable.
 
 ## Best-fit workflows
 
-| Workflow | Why Fable 5 fits | Suggested output |
+| Workflow | Why Fable 5.2 fits | Suggested output |
 |---|---|---|
 | Architecture review | It can compare cross-module tradeoffs before code is written. | Decision-complete implementation plan |
 | Large PR review | It can hold more context and focus on correctness risks. | Findings ordered by severity |
@@ -14,7 +14,7 @@ Use Claude Fable 5 when the coding task benefits from long-context review, high-
 
 ## First prompt template
 
-```text
+```
 You are reviewing a production codebase change.
 
 Goal:
@@ -35,7 +35,7 @@ Output:
 
 ## Conversion path
 
-- Model page: https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5
-- API key: https://evolink.ai/signup?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5
-- Python example: ../api-examples/python/messages.py
-- Node.js example: ../api-examples/node/messages.mjs
+- [View Claude Fable 5.2 on EvoLink](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=model_guide)
+- [Get an API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key)
+- [Run the Python example](../api-examples/python/messages.py)
+- [Run the Node.js example](../api-examples/node/messages.mjs)

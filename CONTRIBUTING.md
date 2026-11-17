@@ -1,6 +1,6 @@
 # Contributing
 
-This repository curates high-signal Claude Fable 5 use cases from public sources.
+This repository curates high-signal Claude Fable 5.2 use cases from public sources and retains examples from earlier collections.
 
 For the current custom usecase format and maintainer validation commands, see [docs/maintenance.md](docs/maintenance.md).
 
@@ -35,7 +35,7 @@ If a creator asks for a correction or removal, update the case promptly.
 
 ## Localization
 
-When a case is added or materially changed, update every localized README:
+When a case is added or materially changed, update the matching files in [the Fable 5.2 catalog](docs/fable-5-2/) across all languages:
 
 - `README.md`
 - `README_es.md`
@@ -49,7 +49,7 @@ When a case is added or materially changed, update every localized README:
 - `README_zh-CN.md`
 - `README_ru.md`
 
-Each localized README must preserve the English case count, anchors, menu links, source links, creator links, and case numbering. Update the public source index in `data/use-cases.json` when cases change.
+Each localized README must preserve the English case count, anchors, menu links, source links, creator links, and case numbering. Update [the Fable 5.2 case index](data/fable-5-2-use-cases.json) when current cases change. For corrections to Cases 1–329, use the root READMEs and [historical index](data/use-cases.json).
 
 ## Maintainer Checklist
 

@@ -1,5 +1,11 @@
 # Claude Fable 5.2 Use Cases
 
+<div align="center">
+
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="../../images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
+
+</div>
+
 [English](README.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Português](README_pt.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md)
 
 Source-linked workflows, demos, comparisons, benchmarks, integrations, and practical limitations from the November 10 and November 13–14 collections.
@@ -10,7 +16,7 @@ Source-linked workflows, demos, comparisons, benchmarks, integrations, and pract
 
 | Start here | Available evidence |
 | --- | --- |
-| [Copy the full prompt: codebase state-machine audit](#case-371) | Full original prompt + source repository |
+| [Copy the full prompt: codebase state-machine audit](#case-371) | Full original prompt + related repository |
 | [Play the portal-world demo](#case-360) | Playable build + project repository |
 | [Explore a workflow: reference images to Three.js](#case-339) | Integration demo; not a complete tutorial |
 | [Compare effort levels: MacBook SVG](#case-330) | Compare quality, token use and output ceilings |

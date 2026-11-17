@@ -3,9 +3,16 @@
 ## 2026-11-17 — Fable 5.2 discovery
 
 - Refreshed the English and Simplified Chinese landing sections with six evidence-based entry points, a complete 160-case index, and an optional bookmark/star invitation.
-- Verified the current EvoLink model page and `claude-fable-5-2` API model ID; retained previous-version examples inside clearly marked historical sections.
-- Preserved all 329 historical and 160 current case bodies, sources, media, numbering and anchors across eleven languages. Other landing-page translations remain unchanged; no case or dataset changes.
+- Verified the current EvoLink model page and `claude-fable-5-2` API model ID; retained the current main branch’s Fable 5.2 banner, Quick Start, and API examples outside the historical case sections.
+- Preserved all 329 historical and 160 current case bodies, sources, media, numbering and anchors across eleven languages from the latest main branch, including its localization corrections and Russian notes. Other landing-page translations remain unchanged by this discovery update; no case or dataset changes.
 - No paid API requests or independent reproduction of creator demonstrations were performed.
+
+## 2026-11-16 — Fable 5.2 repository presentation
+
+- Updated the banner and Messages examples for Claude Fable 5.2.
+- Updated the homepage links in all 11 languages. The historical Russian page links to its full notes.
+- Verified both case catalogs against their structured indexes.
+
 
 ## 2026-11-14 — Claude Fable 5.2
 
