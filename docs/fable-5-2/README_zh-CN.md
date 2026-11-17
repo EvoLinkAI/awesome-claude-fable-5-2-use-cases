@@ -1,5 +1,11 @@
 # Claude Fable 5.2 使用案例
 
+<div align="center">
+
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="../../images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
+
+</div>
+
 [English](README.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Português](README_pt.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md)
 
 汇集 11 月 10 日和 11 月 13–14 日收集的工作流、演示、对比、评测、集成与使用限制，并附原始来源。

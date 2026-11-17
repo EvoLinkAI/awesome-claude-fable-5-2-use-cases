@@ -1,81 +1,55 @@
 # Casos de uso do Claude Fable 5.2
 
-**[Explore 160 casos do Fable 5.2](docs/fable-5-2/README_pt.md)**
-
-Fluxos de trabalho, demonstrações, comparações, avaliações, integrações e limites práticos das coletâneas de 10 e de 13 a 14 de novembro, com links para as fontes.
-
-## Casos anteriores do Fable
-
 <div align="center">
 
-<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-111111)](README.md)
-[![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md)
-[![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md)
-[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md)
-[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md)
-[![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md)
-[![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md)
-[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md)
-[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md)
-[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md)
-[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
+[English](README.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [Türkçe](README_tr.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md)
 
 </div>
+
+**[Ver 160 casos do Fable 5.2](docs/fable-5-2/README_pt.md)**
 
 <a id="-introduction"></a>
 ## 🍌 Introdução
 
-Bem-vindo ao repositório de casos de uso de alto sinal do Claude Fable 5.
-
-**Coletamos casos de uso reais, tutoriais, integrações e avaliações do Claude Fable 5, selecionados a partir de demos públicas e comunidades de criadores.**
-
-Este README-fonte em inglês foca em casos de alto sinal com fluxos de trabalho concretos, prompts, demos, integrações, evidências de benchmark ou limites práticos.
-
-A maioria dos casos é selecionada a partir de publicações no X/Twitter e demos públicas. Cada título de caso aponta para a fonte original, e cada handle de autor aponta para o perfil do criador.
-
-Experimente no Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+Fluxos de trabalho, demonstrações, comparações, avaliações, integrações e limites práticos das coletâneas de 10 e de 13 a 14 de novembro, com links para as fontes.
 
 <a id="-overview"></a>
-## 📊 Visão Geral
+## 📊 Visão geral
 
-- **88 casos originais de Fable 5 e 241 casos da comunidade; 329 casos no total.**
-- Cobre agentes de codificação, automação de longa duração, jogos, design visual, simulações 3D, trabalho de conhecimento, tutoriais, integrações de API, benchmarks, preços e limitações de lançamento.
-- Cada caso inclui a fonte original, atribuição ao criador, uma conclusão concisa, tipo de evidência e data de publicação.
-- Use este repositório para encontrar fluxos de trabalho práticos, comparar pontos fortes e limites, descobrir prompts reproduzíveis e acompanhar exemplos de integração.
+O catálogo atual reúne 160 casos do Claude Fable 5.2. Abaixo estão 329 casos anteriores. As duas coleções trazem links para as fontes originais.
 
-> [!NOTE]
-> A coleção favorece evidências concretas em vez de hype: prompts reproduzíveis, demos entregues, métodos de benchmark, notas de integração, dados de custo e ressalvas claramente declaradas.
-
+<a id="-acesso-rápido-à-api"></a>
 <a id="-quick-api-access"></a>
-## ⚡ Acesso rápido à API
+## ⚡ Início rápido
 
-Use Claude Fable 5 pela API Messages compatível com Evolink. Obtenha um token de API em [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) e substitua `<token>` pelo seu token.
+[Criar uma chave de API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Defina a chave de API da EvoLink na variável de ambiente `EVOLINK_API_KEY` e envie uma requisição Messages com o modelo `claude-fable-5-2`.
 
 ```bash
 curl --request POST \
   --url https://direct.evolink.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
+  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
   --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
+  --data '{
+    "model": "claude-fable-5-2",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review this implementation plan for hidden engineering risks."
+      }
+    ]
+  }'
 ```
+
+`POST https://direct.evolink.ai/v1/messages`
+
+[Consultar a documentação da Messages API](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Ler o guia de agentes de programação](docs/coding-agent-use-cases.md) · [Executar o exemplo em Python](api-examples/python/messages.py) · [Executar o exemplo em Node.js](api-examples/node/messages.mjs)
+
+## Casos anteriores do Fable
 
 <a id="-menu"></a>
 ## 📑 Menu
@@ -6267,4 +6241,4 @@ Este repositório foi inspirado pelos criadores, desenvolvedores, equipes de ben
 Se você tiver mais casos de uso interessantes para compartilhar, sinta-se à vontade para abrir uma issue ou pull request e ajudar a expandir a biblioteca de casos de uso da Evolink.
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5-2-use-cases&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5-2-use-cases&Date)

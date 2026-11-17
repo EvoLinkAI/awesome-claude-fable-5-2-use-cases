@@ -1,79 +1,55 @@
 # Claude Fable 5.2 활용 사례
 
-**[Fable 5.2 사례 160개 보기](docs/fable-5-2/README_ko.md)**
-
-11월 10일과 11월 13~14일에 수집한 워크플로, 데모, 비교, 벤치마크, 통합 사례와 실제 사용상 한계를 출처 링크와 함께 정리했습니다.
-
-## 이전 Fable 사례
-
 <div align="center">
 
-<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>
+<a href="https://evolink.ai/claude-fable-5-2?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-claude-fable-5-2-use-cases&amp;utm_content=readme_banner"><img src="images/fable-5-2-use-cases.png" alt="Awesome Fable 5.2 Use Cases" width="760" height="304"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-111111)](README.md)
-[![Español](https://img.shields.io/badge/Espa%C3%B1ol-ffb703)](README_es.md)
-[![Português](https://img.shields.io/badge/Portugu%C3%AAs-2a9d8f)](README_pt.md)
-[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-52b788)](README_ja.md)
-[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-4ea8de)](README_ko.md)
-[![Deutsch](https://img.shields.io/badge/Deutsch-f4a261)](README_de.md)
-[![Français](https://img.shields.io/badge/Fran%C3%A7ais-e76f51)](README_fr.md)
-[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-d62828)](README_tr.md)
-[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-8338ec)](README_zh-TW.md)
-[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-ef476f)](README_zh-CN.md)
-[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-577590)](README_ru.md)
+[English](README.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [Türkçe](README_tr.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md)
 
 </div>
 
+**[Fable 5.2 사례 160개 보기](docs/fable-5-2/README_ko.md)**
+
+<a id="-introduction"></a>
 ## 🍌 소개
 
-Claude Fable 5의 고신호 활용 사례 저장소에 오신 것을 환영합니다.
+11월 10일과 11월 13~14일에 수집한 워크플로, 데모, 비교, 벤치마크, 통합 사례와 실제 사용상 한계를 출처 링크와 함께 정리했습니다.
 
-**우리는 공개 데모와 크리에이터 커뮤니티에서 큐레이션한 Claude Fable 5의 실제 사용 사례, 튜토리얼, 통합, 평가를 수집합니다.**
-
-이 한국어 README는 구체적인 워크플로, 프롬프트, 데모, 통합, 벤치마크 근거 또는 실용적 한계를 갖춘 고신호 사례에 초점을 맞춥니다.
-
-대부분의 사례는 X/Twitter 게시물과 공개 데모에서 큐레이션되었습니다. 각 사례 제목은 원본 소스로 연결되며, 각 작성자 핸들은 크리에이터 프로필로 연결됩니다.
-
-Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-
+<a id="-overview"></a>
 ## 📊 개요
 
-- **기존 Fable 5 사례 88개와 커뮤니티 사례 241개, 총 329개 사례.**
-- 코딩 에이전트, 장시간 자동화, 게임, 비주얼 디자인, 3D 시뮬레이션, 지식 작업, 튜토리얼, API 통합, 벤치마크, 가격, 출시 시점의 제한을 다룹니다.
-- 각 사례에는 원본 소스, 크리에이터 출처, 간결한 핵심 요약, 근거 유형, 게시 날짜가 포함됩니다.
-- 이 저장소를 활용해 실용적인 워크플로를 찾고, 강점과 한계를 비교하며, 재현 가능한 프롬프트를 발견하고, 통합 예시를 따라가세요.
+현재 카탈로그에는 Claude Fable 5.2 사례 160개가 있습니다. 아래에는 이전 사례 329개가 있습니다. 두 모음 모두 원본 출처를 연결합니다.
 
-> [!NOTE]
-> 이 컬렉션은 과장보다 구체적 근거를 우선합니다: 재현 가능한 프롬프트, 출시된 데모, 벤치마크 방법, 통합 노트, 비용 데이터, 명확히 제시된 주의사항.
-
+<a id="-빠른-api-접속"></a>
 <a id="-quick-api-access"></a>
-## ⚡ 빠른 API 접속
+## ⚡ 빠른 시작
 
-Evolink 호환 Messages API를 통해 Claude Fable 5를 사용할 수 있습니다. [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)에서 API 토큰을 받은 뒤 `<token>`을 해당 토큰으로 바꾸세요.
+[API 키 만들기](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API 키를 환경 변수 `EVOLINK_API_KEY`에 설정한 뒤 `claude-fable-5-2` 모델로 Messages 요청을 보내세요.
 
 ```bash
 curl --request POST \
   --url https://direct.evolink.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
+  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
   --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
+  --data '{
+    "model": "claude-fable-5-2",
+    "max_tokens": 1024,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review this implementation plan for hidden engineering risks."
+      }
+    ]
+  }'
 ```
+
+`POST https://direct.evolink.ai/v1/messages`
+
+[Messages API 문서 읽기](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [코딩 에이전트 가이드 읽기](docs/coding-agent-use-cases.md) · [Python 예제 실행하기](api-examples/python/messages.py) · [Node.js 예제 실행하기](api-examples/node/messages.mjs)
+
+## 이전 Fable 사례
 
 ## 📑 메뉴
 
@@ -6314,4 +6290,4 @@ Type: Demo | Date: 2026-11-08
 공유할 더 흥미로운 사용 사례가 있다면 issue 또는 pull request를 열어 Evolink usecase library 확장에 도움을 주세요.
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5-2-use-cases&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5-2-use-cases&Date)
