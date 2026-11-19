@@ -26,7 +26,7 @@
 <a id="-quick-api-access"></a>
 ## ⚡ 快速開始
 
-[建立 API 金鑰](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). 將 EvoLink API 金鑰設為環境變數 `EVOLINK_API_KEY`，再使用模型 `claude-fable-5-2` 傳送 Messages 請求。
+[建立 API 金鑰 (從模型詳情頁進入)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). 將 EvoLink API 金鑰設為環境變數 `EVOLINK_API_KEY`，再使用模型 `claude-fable-5-2` 傳送 Messages 請求。
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[查看 Messages API 文件](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [閱讀程式設計代理指南](docs/coding-agent-use-cases.md) · [執行 Python 範例](api-examples/python/messages.py) · [執行 Node.js 範例](api-examples/node/messages.mjs)
+[查看 Messages API 文件 (從模型詳情頁進入)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [閱讀程式設計代理指南](docs/coding-agent-use-cases.md) · [執行 Python 範例](api-examples/python/messages.py) · [執行 Node.js 範例](api-examples/node/messages.mjs)
 
 ## Fable 歷史案例
 

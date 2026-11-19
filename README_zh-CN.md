@@ -12,7 +12,7 @@
 
 **160 个新版案例，附原始来源；另保留 329 个历史案例。**
 
-**[浏览完整 160 案例目录](docs/fable-5-2/README_zh-CN.md)** · [查看 Fable 5.2 页面与 API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2)
+**[浏览完整 160 案例目录](docs/fable-5-2/README_zh-CN.md)** · [查看 Fable 5.2 页面与 API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=top_model_link)
 
 <a id="-introduction"></a>
 ## 🍌 简介
@@ -39,7 +39,7 @@
 
 ## 当前模型入口
 
-EvoLink 官方页面确认 API 模型 ID 为 `claude-fable-5-2`，支持 Chat Completions 和 Anthropic Messages。[查看模型、接入示例及最新价格](https://evolink.ai/claude-fable-5-2)。入口于 2026-11-17 核对；本次文档改动未执行付费 API 请求。
+EvoLink 官方页面确认 API 模型 ID 为 `claude-fable-5-2`，支持 Chat Completions 和 Anthropic Messages。[查看模型、接入示例及最新价格](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=current_model)。入口于 2026-11-17 核对；本次文档改动未执行付费 API 请求。
 
 ## 为什么 Star
 
@@ -49,7 +49,7 @@ EvoLink 官方页面确认 API 模型 ID 为 `claude-fable-5-2`，支持 Chat Co
 <a id="-quick-api-access"></a>
 ## ⚡ 快速开始
 
-[创建 API 密钥](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). 将 EvoLink API 密钥设为环境变量 `EVOLINK_API_KEY`，然后使用模型 `claude-fable-5-2` 发送 Messages 请求。
+[创建 API 密钥 (从模型详情页进入)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). 将 EvoLink API 密钥设为环境变量 `EVOLINK_API_KEY`，然后使用模型 `claude-fable-5-2` 发送 Messages 请求。
 
 ```bash
 curl --request POST \
@@ -70,7 +70,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[查看 Messages API 文档](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [阅读编码代理指南](docs/coding-agent-use-cases.md) · [运行 Python 示例](api-examples/python/messages.py) · [运行 Node.js 示例](api-examples/node/messages.mjs)
+[查看 Messages API 文档 (从模型详情页进入)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [阅读编码代理指南](docs/coding-agent-use-cases.md) · [运行 Python 示例](api-examples/python/messages.py) · [运行 Node.js 示例](api-examples/node/messages.mjs)
 
 ## Fable 历史案例
 

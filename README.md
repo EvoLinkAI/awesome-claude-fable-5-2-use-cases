@@ -12,7 +12,7 @@
 
 **160 current-version cases with original sources, plus 329 historical cases kept separately.**
 
-**[Browse all 160 cases](docs/fable-5-2/README.md)** · [View the Fable 5.2 model & API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2)
+**[Browse all 160 cases](docs/fable-5-2/README.md)** · [View the Fable 5.2 model & API](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=top_model_link)
 
 <a id="-introduction"></a>
 ## 🍌 Introduction
@@ -39,7 +39,7 @@ These entry points describe the available evidence, not independently reproduced
 
 ## Current model entry point
 
-EvoLink confirms API model ID `claude-fable-5-2` for Chat Completions and Anthropic Messages. [See the model, integration example and current pricing](https://evolink.ai/claude-fable-5-2). Entry points checked on 2026-11-17; no paid API request was executed for this documentation change.
+EvoLink confirms API model ID `claude-fable-5-2` for Chat Completions and Anthropic Messages. [See the model, integration example and current pricing](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=current_model). Entry points checked on 2026-11-17; no paid API request was executed for this documentation change.
 
 ## Why star this repository?
 
@@ -49,7 +49,7 @@ Star to bookmark a maintained, source-linked collection that credits the creator
 <a id="-quick-api-access"></a>
 ## ⚡ Quick Start
 
-[Get an API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Set your EvoLink API key in the `EVOLINK_API_KEY` environment variable, then send a Messages request with model `claude-fable-5-2`.
+[Get an API key (via the model page)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Set your EvoLink API key in the `EVOLINK_API_KEY` environment variable, then send a Messages request with model `claude-fable-5-2`.
 
 ```bash
 curl --request POST \
@@ -70,7 +70,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Read the Messages API docs](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Read the coding agent guide](docs/coding-agent-use-cases.md) · [Run the Python example](api-examples/python/messages.py) · [Run the Node.js example](api-examples/node/messages.mjs)
+[Read the Messages API docs (via the model page)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Read the coding agent guide](docs/coding-agent-use-cases.md) · [Run the Python example](api-examples/python/messages.py) · [Run the Node.js example](api-examples/node/messages.mjs)
 
 ## Earlier Fable Cases
 
