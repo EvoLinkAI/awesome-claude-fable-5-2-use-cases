@@ -26,7 +26,7 @@
 <a id="-quick-api-access"></a>
 ## ⚡ クイックスタート
 
-[API キーを作成する](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink の API キーを環境変数 `EVOLINK_API_KEY` に設定し、`claude-fable-5-2` を指定して Messages リクエストを送信します。
+[API キーを作成する (モデルページから)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink の API キーを環境変数 `EVOLINK_API_KEY` に設定し、`claude-fable-5-2` を指定して Messages リクエストを送信します。
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Messages API の仕様を読む](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [コーディングエージェントのガイドを読む](docs/coding-agent-use-cases.md) · [Python の例を実行する](api-examples/python/messages.py) · [Node.js の例を実行する](api-examples/node/messages.mjs)
+[Messages API の仕様を読む (モデルページから)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [コーディングエージェントのガイドを読む](docs/coding-agent-use-cases.md) · [Python の例を実行する](api-examples/python/messages.py) · [Node.js の例を実行する](api-examples/node/messages.mjs)
 
 ## Fable の過去事例
 

@@ -26,7 +26,7 @@ El catálogo actual reúne 160 casos de Claude Fable 5.2. Más abajo hay 329 cas
 <a id="-quick-api-access"></a>
 ## ⚡ Inicio rápido
 
-[Crear una clave de API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Guarda tu clave de API de EvoLink en la variable de entorno `EVOLINK_API_KEY` y envía una solicitud Messages con el modelo `claude-fable-5-2`.
+[Crear una clave de API (desde la página del modelo)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Guarda tu clave de API de EvoLink en la variable de entorno `EVOLINK_API_KEY` y envía una solicitud Messages con el modelo `claude-fable-5-2`.
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Consultar la documentación de Messages API](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Leer la guía para agentes de código](docs/coding-agent-use-cases.md) · [Ejecutar el ejemplo en Python](api-examples/python/messages.py) · [Ejecutar el ejemplo en Node.js](api-examples/node/messages.mjs)
+[Consultar la documentación de Messages API (desde la página del modelo)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Leer la guía para agentes de código](docs/coding-agent-use-cases.md) · [Ejecutar el ejemplo en Python](api-examples/python/messages.py) · [Ejecutar el ejemplo en Node.js](api-examples/node/messages.mjs)
 
 ## Casos anteriores de Fable
 

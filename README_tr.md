@@ -26,7 +26,7 @@ Güncel katalogda 160 Claude Fable 5.2 örneği, aşağıda ise 329 önceki örn
 <a id="-quick-api-access"></a>
 ## ⚡ Hızlı başlangıç
 
-[API anahtarı oluşturun](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API anahtarınızı `EVOLINK_API_KEY` ortam değişkenine ekleyin, ardından `claude-fable-5-2` modeliyle bir Messages isteği gönderin.
+[API anahtarı oluşturun (model sayfası üzerinden)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API anahtarınızı `EVOLINK_API_KEY` ortam değişkenine ekleyin, ardından `claude-fable-5-2` modeliyle bir Messages isteği gönderin.
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Messages API belgelerini okuyun](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Kodlama ajanı kılavuzunu okuyun](docs/coding-agent-use-cases.md) · [Python örneğini çalıştırın](api-examples/python/messages.py) · [Node.js örneğini çalıştırın](api-examples/node/messages.mjs)
+[Messages API belgelerini okuyun (model sayfası üzerinden)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Kodlama ajanı kılavuzunu okuyun](docs/coding-agent-use-cases.md) · [Python örneğini çalıştırın](api-examples/python/messages.py) · [Node.js örneğini çalıştırın](api-examples/node/messages.mjs)
 
 ## Önceki Fable Örnekleri
 

@@ -26,7 +26,7 @@
 <a id="-quick-api-access"></a>
 ## ⚡ Быстрый старт
 
-[Создать ключ API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Задайте ключ API EvoLink в переменной окружения `EVOLINK_API_KEY` и отправьте запрос Messages с моделью `claude-fable-5-2`.
+[Создать ключ API (со страницы модели)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). Задайте ключ API EvoLink в переменной окружения `EVOLINK_API_KEY` и отправьте запрос Messages с моделью `claude-fable-5-2`.
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Открыть документацию Messages API](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Прочитать руководство по агентам для программирования](docs/coding-agent-use-cases.md) · [Запустить пример на Python](api-examples/python/messages.py) · [Запустить пример на Node.js](api-examples/node/messages.mjs)
+[Открыть документацию Messages API (со страницы модели)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [Прочитать руководство по агентам для программирования](docs/coding-agent-use-cases.md) · [Запустить пример на Python](api-examples/python/messages.py) · [Запустить пример на Node.js](api-examples/node/messages.mjs)
 
 ## Предыдущие кейсы Fable
 

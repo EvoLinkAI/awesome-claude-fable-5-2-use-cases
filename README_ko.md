@@ -26,7 +26,7 @@
 <a id="-quick-api-access"></a>
 ## ⚡ 빠른 시작
 
-[API 키 만들기](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API 키를 환경 변수 `EVOLINK_API_KEY`에 설정한 뒤 `claude-fable-5-2` 모델로 Messages 요청을 보내세요.
+[API 키 만들기 (모델 페이지에서)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=api_key). EvoLink API 키를 환경 변수 `EVOLINK_API_KEY`에 설정한 뒤 `claude-fable-5-2` 모델로 Messages 요청을 보내세요.
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ curl --request POST \
 
 `POST https://direct.evolink.ai/v1/messages`
 
-[Messages API 문서 읽기](https://evolink.ai/docs/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=docs&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [코딩 에이전트 가이드 읽기](docs/coding-agent-use-cases.md) · [Python 예제 실행하기](api-examples/python/messages.py) · [Node.js 예제 실행하기](api-examples/node/messages.mjs)
+[Messages API 문서 읽기 (모델 페이지에서)](https://evolink.ai/claude-fable-5-2?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-claude-fable-5-2-use-cases&utm_content=messages_docs) · [코딩 에이전트 가이드 읽기](docs/coding-agent-use-cases.md) · [Python 예제 실행하기](api-examples/python/messages.py) · [Node.js 예제 실행하기](api-examples/node/messages.mjs)
 
 ## 이전 Fable 사례
 
